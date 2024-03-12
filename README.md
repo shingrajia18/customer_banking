@@ -4,9 +4,7 @@ Module 3 Challenge
 
 This project implements a customer banking system that allows users to calculate and track interest earned on savings and CD accounts. Users can enter their savings and CD account information, view the interest earned, and see the updated balances after a specified number of months.
 
-# Import the Account class from the Account.py file
-from Account import Account
-Function: create_savings_account
+# Function: create_savings_account
 The create_savings_account function creates a savings account, calculates interest earned, and updates the account balance.
 
 Parameters:
@@ -26,9 +24,7 @@ balance = 1000.0
 interest_rate = 5.0
 months = 12
 
-# Import the Account class from the Account.py file
-from Account import Account
-Function: create_cd_account
+# Function: create_cd_account
 The create_cd_account function creates a CD account, calculates interest earned, and updates the account balance.
 
 Parameters:
@@ -47,3 +43,6 @@ Example:
 balance = 1000.0
 interest_rate = 5.0
 months = 12
+
+# Using the Main Function
+The main function serves as the entry point for the application. It prompts the user to enter account details, calculates interest earned, and updates account balances. 
